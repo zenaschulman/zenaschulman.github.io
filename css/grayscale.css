@@ -29,7 +29,6 @@ html {
 h1,
 h2,
 h3,
-h4,
 h6 {
     margin: 0 0 25px;
     text-transform: uppercase;
@@ -44,6 +43,15 @@ h1 {
 
 h2 {
     margin-top:25px;
+}
+
+h4 {
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
 }
 
 h5 {
@@ -180,7 +188,7 @@ a:focus {
     width: 100%;
     height: auto;
     padding-top: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     text-align: center;
     color: #000;
 /*    background: url(../img/blueblack.jpg) no-repeat bottom center scroll;*/
@@ -205,13 +213,17 @@ a:focus {
     font-size: 16px;
 }
 
+.extra-space {
+    padding-bottom: 25px;
+}
+
 .circularimg {
     height:250px;
     border-radius:50%;
     border:10px solid #5C7999;    
 }
 
-#headshot {
+#headerimage {
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -230,9 +242,12 @@ a:focus {
         font-size: 20px;
     }
 
-    #headshot {
+    #headerimage {
         height:350px;
         margin-top: 100px;
+    }
+    h4 {
+        padding-bottom:20px;
     }
 }
 
@@ -328,14 +343,14 @@ a:focus {
     -o-background-size: cover;
 }
 
-#about {
+.about {
     padding:50px;
     background-color:#5C7999;
     margin:0px;
     border-bottom: 10px solid #CC9062;
 }
 
-#contact{
+.contact{
     padding:50px;
     background-color:#fff;
     color:#000;
@@ -343,7 +358,13 @@ a:focus {
     border-bottom: 10px solid #CC9062;
 }
 
-@media(min-width:767px) {
+.img-box {
+    max-width:550px;
+    margin: auto;
+}
+
+
+@media(min-width:500px) {
 /*    .content-section {
         padding-top: 100px;
     }*/
@@ -352,12 +373,15 @@ a:focus {
         padding: 100px 0;
     }
 
-    #about {
+    .about {
         padding:100px;
     }
 
-    #contact {
-        padding:100px;
+    .contact {
+        padding-top:70px;
+        padding-bottom:70px;
+        padding-right:150px;
+        padding-left:150px;
     }
     
 }
