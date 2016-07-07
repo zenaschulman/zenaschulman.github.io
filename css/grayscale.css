@@ -232,8 +232,8 @@ a:focus {
     border:10px solid #5C7999;    
 }
 
-.img-box {
-    border:5px solid #2C3233;
+.wireframe_border {
+    border:2px solid #2C3233;
 }
 
 #headerimage {
