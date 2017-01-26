@@ -17,8 +17,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #FFF;
 }
 
 html {
@@ -38,6 +38,7 @@ h6 {
 }
 
 h1 {
+    margin-top:25px;
     color: #664752;
 }
 
@@ -338,33 +339,49 @@ a:focus {
     padding-top: 50px;
 }*/
 
-.portfolio-section {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 75px;
+.product {
+    padding:125px;
     color: #fff;
-/*    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background-color: #000;
-    border-bottom: 10px solid #CC9062;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.about {
-    padding:50px;
     background-color:#5C7999;
     margin:0px;
     border-bottom: 10px solid #CC9062;
 }
 
-.contact{
-    padding:50px;
+.activist {
+    padding: 125px;
+    color: #fff;
+    background-color: #664752;
+    margin: 0px;
+    border-bottom: 10px solid #CC9062;
+}
+
+.dancer{
+    padding:125px;
+    color: #fff;
+    background-color:#5C7999;
+    margin:0px;
+    border-bottom: 10px solid #CC9062;
+}
+
+.footer{
+    padding:125px;
     background-color:#fff;
     color:#000;
     margin:0px;
-    border-bottom: 10px solid #CC9062;
+}
+
+.copyright{
+    background-color:#fff;
+    color:#000;
+    text-align:center;
+}
+
+.img-logo {
+    border: 5px solid #CC9062;
+    max-width:350px;
+    margin: auto;
+    margin-bottom:30px;
+    margin-top:15px;
 }
 
 .img-box {
@@ -397,6 +414,13 @@ a:focus {
     
 }
 
+.cover-hover {
+    color: #000;
+}
+.cover-hover:hover {
+    text-decoration:underline;
+}
+
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -408,14 +432,14 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #CC9062;
-    color: #CC9062;
+    border: 2px solid #000;
+    color: #000;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #CC9062;
+    border: 2px solid #CC9062;
     outline: 0;
     color: #000;
     background-color: #CC9062;
