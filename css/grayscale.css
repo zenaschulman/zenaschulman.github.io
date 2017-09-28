@@ -391,6 +391,12 @@ a:focus {
     margin-top:15px;
 }
 
+@media(max-width:500px) {
+    .product .activist .dancer .footer {
+        padding:75px;
+    }
+}
+
 
 @media(min-width:500px) {
 /*    .content-section {
